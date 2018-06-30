@@ -1,0 +1,33 @@
+@font-face{
+   font-family: 'laos';
+   src: url('../fonts/phetsarath.woff')format('woff');
+   font-weight: bold;
+}
+@font-face{
+    font-family: 'baloobhai';
+    src: url('../fonts/baloobhai.woff2')format('woff');
+    font-weight: bold;
+ }
+*{
+    font-family: laos,baloohai;
+}
+body{
+    margin: 0;
+}
+header{
+    background: #03a9f4;
+    text-align: center
+}
+.logo{
+    color: #fff;
+    font-size: 40px;
+}
+header input {
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.news_items{
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+}
